@@ -1,0 +1,14 @@
+# Matching {x} repetitions
+Regex_Pattern = r"^[a-zA-Z24680]{40}[13579\s]{5}$"
+
+# Matching {x,y} repetitions
+Regex_Pattern = r"^[0-9]{1,2}[a-zA-Z]{3,}[\.]{,3}$"
+
+# Matching Zero or More repetitions
+Regex_Pattern = r"^[0-9]{2,}[a-z]*[A-Z]*$"
+
+# Matching One Or More repetitions
+Regex_Pattern = r"^[0-9]+[A-Z]+[a-z]+$"
+
+# Matching Ending Items
+Regex_Pattern = r"^[A-Za-z]*s$"
