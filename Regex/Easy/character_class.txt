@@ -1,0 +1,8 @@
+# Matching Specific Characters
+Regex_Pattern = r"^[1-3][0-2][x,s,0][30Aa][xsu][\.,]$"
+
+# Excluding Specific Characters
+Regex_Pattern = r"^[^0-9][^aeoiu][^bcDF][\S][^AEOIU][^\.,]$"
+
+# Matching Character Ranges
+Regex_Pattern = r"^[a-z][1-9][^a-z][^A-Z][A-Z]"
