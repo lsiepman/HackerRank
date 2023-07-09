@@ -1,0 +1,11 @@
+# Matching the same text again and again
+regex_pattern = r"^([a-z])(\w)(\s)(\W)(\d)(\D)([A-Z])([a-zA-Z])([aeiouAEIOU])(\S)\1\2\3\4\5\6\7\8\9\10$"
+
+# Backreferences to failed groups
+regex_pattern = r"^\d\d(\-?)\d\d\1\d\d\1\d\d$"
+
+# Branch reset groups (Branch reset group is supported by Perl, PHP, Delphi and R.)
+regex_pattern = "^\d{2}(-(?:--)?|\.|:)\d{2}\1\d{2}\1\d{2}$"
+
+# Forward references ( Forward reference is supported by JGsoft, .NET, Java, Perl, PCRE, PHP, Delphi and Ruby regex flavors)
+regex_pattern = "^(\2tic|(tac))+$"
