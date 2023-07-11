@@ -1,0 +1,11 @@
+# Positive Lookahead
+regex_pattern = "o(?=oo)"
+
+# Negative Lookahead
+regex_pattern = "(.)(?!\1)"
+
+# Positive Lookbehind
+regex_pattern = "(?<=[13579])\d"
+
+# Negative Lookbehind
+regex_pattern = "(?<![aeiouAEIOU])."
