@@ -28,7 +28,7 @@ def check_coords(s):
         else:
             print("Invalid")
 
-    except:
+    except Exception:
         print("Invalid")
 
 
